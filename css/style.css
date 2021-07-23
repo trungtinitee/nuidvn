@@ -1993,6 +1993,8 @@ a:focus {
 .contact .contact-form {
     position: relative;
     padding: 0 15px;
+    width: 100%;
+    height: 100%;
 }
 
 .contact .contact-form input {
@@ -2053,6 +2055,16 @@ a:focus {
     list-style-type: none;
 }
 
+.gform{
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .contact .contact-form {
+        height: 526px;
+    }
+}
 
 /*******************************/
 /********* Footer CSS **********/
